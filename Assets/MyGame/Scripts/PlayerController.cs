@@ -124,7 +124,7 @@ public class PlayerController : MonoBehaviour
         if (collision.GetComponent<DropHere>() && collided4 == true)
         {
             potionAmount--;
-            SceneManager.LoadScene("Win");
+            
         }
 
             if (collision.GetComponent<wall>())
@@ -154,5 +154,7 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
+
     }
     
