@@ -8,12 +8,13 @@ In diesem "Recap" Projekt sollen bereits gelernte Unity Konzepte wieder aufgefri
 Features:
 1. Start Scene
 2. WASD System
+4. Timer - wenn ausgeht dann EndScene (funktioniert aber displayed noch nicht in Game)
 3. Einsammelsystem
 4. Hindernisse schupsen einen zurück
 5. Player kann nicht die Map verlassen
 6. Speed Up Areas (3 Sekunden Wirkung)
 7. Wenn Punsch abgeliefert ist erscheint erst der nächste Punsch
-8. EndScene drinnen, funktioniert noch nicht.
+8. EndScene
 
 Dieses Recap Projekt (2D, Top-Down) inkludiert die Wiederholung folgender Punkte:
 Anwendung von Klassen, Methoden (eigene und vorimplementierte Methoden), Variablen, If-Statements,
