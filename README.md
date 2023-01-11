@@ -8,7 +8,7 @@ In diesem "Recap" Projekt sollen bereits gelernte Unity Konzepte wieder aufgefri
 Features:
 1. Start Scene
 2. WASD System
-4. Timer - wenn ausgeht dann EndScene (funktioniert aber displayed noch nicht in Game)
+4. Timer - wenn ausgeht dann EndScene
 3. Einsammelsystem
 4. Hindernisse schupsen einen zurück
 5. Player kann nicht die Map verlassen
