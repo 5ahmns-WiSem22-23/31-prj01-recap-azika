@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //when player mit erstem Pickup collided wird Ui +1, Zerstört Objekt,bool für nächstes Projekt true
+        //wenn player mit erstem Pickup collided wird Ui +1, Zerstört Objekt,bool für nächstes Projekt true
         if (collision.GetComponent<Potion1>())
         {
             potionAmount++;
@@ -116,7 +116,7 @@ public class PlayerController : MonoBehaviour
         if (collision.GetComponent<Potion4>())
         {
             potionAmount++;
-            Destroy(collision.gameObject);
+            this.potion4.SetActive(false);
             collided4 = true;
             Debug.Log("collided");
         }
@@ -124,6 +124,7 @@ public class PlayerController : MonoBehaviour
         if (collision.GetComponent<DropHere>() && collided4 == true)
         {
             potionAmount--;
+            SceneManager.LoadScene("EndScene");
             
         }
 
@@ -146,15 +147,23 @@ public class PlayerController : MonoBehaviour
             Debug.Log("hallo");
         }
 
+
         if (collision.GetComponent<SpeedArea1>())
         {
-
-            speed = 50f;
-            Debug.Log("collidedSpeed");
+            StartCoroutine(OnCollisionWithSpeed());
         }
-
+        
     }
 
+    
+
+    public IEnumerator OnCollisionWithSpeed()
+    {
+        speed = 30f;
+        Debug.Log("collidedSpeed");
+        yield return new WaitForSeconds(3);
+        speed = 10f;
+    }
 
     }
     

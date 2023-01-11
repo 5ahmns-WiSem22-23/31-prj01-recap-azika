@@ -63,7 +63,10 @@
     <Compile Include="Assets\MyGame\Scripts\PlayerController.cs" />
     <Compile Include="Assets\MyGame\Scripts\CameraFollows.cs" />
     <Compile Include="Assets\MyGame\Scripts\Potion3.cs" />
-    <Compile Include="Assets\MyGame\Scripts\SceneManager.cs" />
+    <Compile Include="Assets\MyGame\Scripts\GamePlay.cs" />
+    <Compile Include="Assets\MyGame\Scripts\Timer.cs" />
+    <Compile Include="Assets\MyGame\Scripts\QuitGamePlay.cs" />
+    <Compile Include="Assets\MyGame\Scripts\ReplayGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
