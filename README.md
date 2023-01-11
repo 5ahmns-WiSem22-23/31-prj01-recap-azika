@@ -11,8 +11,9 @@ Features:
 3. Einsammelsystem
 4. Hindernisse schupsen einen zurück
 5. Player kann nicht die Map verlassen
-6. Speed Up Area (Code sollte stimmen, funktioniert in Game noch nicht)
+6. Speed Up Areas (3 Sekunden Wirkung)
 7. Wenn Punsch abgeliefert ist erscheint erst der nächste Punsch
+8. EndScene drinnen, funktioniert noch nicht.
 
 Dieses Recap Projekt (2D, Top-Down) inkludiert die Wiederholung folgender Punkte:
 Anwendung von Klassen, Methoden (eigene und vorimplementierte Methoden), Variablen, If-Statements,
